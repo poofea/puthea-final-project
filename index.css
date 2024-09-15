@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(47,45,51,0.8),rgba(47,45,51,0.8)) , url(images/apsara-group.jpg);
+    background-size: cover;
+    background-position-y: -80px;
+    
+}
+
+.logo{
+    color: white;
+    font-family: "Italiana";
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    height: 790px;
+    width: 100%; 
+    margin-left: 0px  ;  
+
+}
+
+.intro{
+    font-family: "Italiana";
+    color:white;
+    font-size: 30px;    
+}
+.bttn-box{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Italiana";
+    color: #2F2D33;
+    margin-left: 20px;
+
+}
+
+.bttn-box:hover{
+    cursor: pointer; 
+}
+
+.signup-bttn{
+    background-color: white;
+    padding: 10px;
+    padding-left: 38px;
+    padding-right: 38px;
+    border-radius: 6px;
+    font-weight:bold;
+}
+.aboutus-bttn{
+    background-color: white;
+    padding: 10px;
+    padding-left: 38px;
+    padding-right: 38px;
+    border-radius: 6px;
+    font-weight:bold;
+}
+.signup-bttn:hover{
+    background-color:#2F2D33;
+    color:white;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px, solid black;
+    padding-left: 38px;
+    padding-right: 38px;
+    transition: 0.2ms;
+}
+.aboutus-bttn:hover{
+    background-color:#2F2D33;
+    color:white;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px, solid black;
+    padding-left: 38px;
+    padding-right: 38px;
+    transition: 0.2ms;
+}
+.left{
+    margin-bottom: 82px;
+    background-image: linear-gradient(rgba(47,45,51,0.75),rgba(47,45,51,0.75));
+    padding-top: 278px;
+    padding-left: 340px;
+    padding-bottom: 185px;
+    padding-right: 130px;
+}
+
+.right{
+    margin-bottom: 82px;
+    opacity: 80%;
+}
+
+p{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-size: 133% 82%;
+    background-size: 133% 82%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, rgba(183, 182, 187, 0.8) 0%, rgba(47, 45, 51, 0.8) 32%, rgba(47, 45, 51, 0.8) 57%, rgba(183, 182, 187, 0.8) 100%);
+}
+
+li{
+    padding: 20px;
+}
+
+div p{
+    color: white;
+}
+
+div h1{
+    color: white;
+}
+div h2{
+    color: white;
+}
